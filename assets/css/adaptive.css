@@ -122,7 +122,7 @@
     .header-burger span {
         width: 100%;
         height: 2px;
-        background-color: #fff;
+        background-color: #75ABD6;
         position: absolute;
         left: 0;
         top: 9px;
@@ -131,7 +131,7 @@
     .header-burger::before,
     .header-burger::after {
         content: '';
-        background-color: #fff;
+        background-color: #75ABD6;
         position: absolute;
         width: 100%;
         height: 2px;
@@ -150,7 +150,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #18b5a4;
+        background-color: #75ABD6;
         padding: 80px 0 0 0;
         transition: all 0.3s ease 0s;
     }
@@ -164,7 +164,7 @@
         padding: 0 0 20px 15px;
     }
     .header-offer {
-        padding: 100px 0 100px 0;
+        padding: 90px 0 100px 0;
         height: auto;
     }
     .offer__buttons {
@@ -223,6 +223,18 @@
     .referrals__subtitle {
         font-size: 24px;
     }
+    .contact__icon {
+        display: none;
+    }
+    .section-contact-us {
+        padding-top: 115px;
+    }
+    .form {
+        padding-bottom: 40px;
+    }
+    .contact {
+        padding: 60px 0 30px 0;
+    }
 }
 /* *Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {
@@ -247,5 +259,43 @@
     .footer-nav__info {
         width: 100%;        
     }
+    h1 {
+        line-height: 46px !important;
+        margin-bottom: 15px;
+    }
+    .section-about,
+    .section-areas,
     
+    .section-staff,
+    .section-indicators,
+    .section-license,
+    .section-reviews,
+    .section-news {
+        padding: 40px 0;
+    }
+    .form {
+        padding-bottom: 20px;
+    }
+    .section-contact-us {
+        padding: 140px 0 0;
+    margin-top: -100px;
+    }    
+    .footer__bottom {
+        padding: 30px 0;
+    }
+    .main-slider {
+        padding: 0;
+    }
+}
+/* *< 320 devices (landscape phones, 576px and up) */
+@media (max-width: 320px) {
+    .offer {
+        padding: 10px;
+    }
+    .services-card {
+        padding: 10px;
+    }
+    .areas-card {
+        padding: 10px;
+    }    
 }
